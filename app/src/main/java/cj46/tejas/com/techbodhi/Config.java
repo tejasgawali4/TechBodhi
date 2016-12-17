@@ -5,6 +5,7 @@ package cj46.tejas.com.techbodhi;
  */
 public class Config {
     //Address of our scripts of the CRUD
+/*
 
     public static final String URL_ADD_USER="http://192.168.1.120/Techbodhi/registerUser.php";
     public static final String URL_ADD_POST = "http://192.168.1.120/Techbodhi/addPost.php";
@@ -16,10 +17,11 @@ public class Config {
     public static final String URL_APPROVE = "http://192.168.1.120/Techbodhi/ApproveUser.php";
     public static final String URL_APPROVAL_POST = "http://192.168.1.120/Techbodhi/approvalPost.php?u_id=";
 
+*/
 
 
     //http://platformx.co.in/tbAndroidApp/viewUsers.php
-/*
+
     public static final String URL_ADD_USER="http://platformx.co.in/tbAndroidApp/registerUser.php";
     public static final String URL_ADD_POST = "http://platformx.co.in/tbAndroidApp/addPost.php";
     public static final String URL_CHECK_USER ="http://platformx.co.in/tbAndroidApp/checkUser.php";
@@ -28,7 +30,7 @@ public class Config {
     public static final String URL_VIEW_POSTS = "http://platformx.co.in/tbAndroidApp/viewPost.php";
     public static final String URL_APPROVAL_USER = "http://platformx.co.in/tbAndroidApp/viewUserApprovals.php";
     public static final String URL_APPROVE = "http://platformx.co.in/tbAndroidApp/ApproveUser.php";
-    public static final String URL_APPROVAL_POST = "http://platformx.co.in/tbAndroidApp/approvalPost.php?u_id=";*/
+    public static final String URL_APPROVAL_POST = "http://platformx.co.in/tbAndroidApp/approvalPost.php?u_id=";
 
     //Keys that will be used to send the request to php scripts
 

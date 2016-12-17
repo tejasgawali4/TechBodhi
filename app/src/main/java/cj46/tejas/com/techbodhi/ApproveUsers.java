@@ -1,7 +1,6 @@
 package cj46.tejas.com.techbodhi;
 
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,12 +13,12 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-
 import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -28,14 +27,12 @@ import java.util.HashMap;
  */
 public class ApproveUsers extends AppCompatActivity {
 
+    ArrayList<HashMap<String, String>> viewuserarray;
     private String TAG = ViewPosts.class.getSimpleName();
-
     private ProgressDialog pDialog;
     private ListView ApproveListView;
     private ImageButton btnApprove,btnReject;
     private ImageView profileView;
-
-    ArrayList<HashMap<String, String>> viewuserarray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +49,7 @@ public class ApproveUsers extends AppCompatActivity {
     public void Approve(AdapterView<?> parent, View view, int position, long id)
     {
 
-        final long u_id = id;
+        final String u_id = "5";
         final String status = "1";
 
         class ApproveU extends AsyncTask<Void, Void, String> {
