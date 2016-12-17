@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/leaveApply"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="Leave Apply"/>
+        <item
+            android:id="@+id/AttendanceApplication"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="Attendance Application" />
+        <item
+            android:id="@+id/OdApplication"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="OD Application" />
+    </group>
+
+    <item android:title="Muster SignIn/SignOut">
+        <menu>
+            <item
+                android:id="@+id/Musteroperation"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Muster Sign/SignOut" />
+            </menu>
+    </item>
+
+<!--    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

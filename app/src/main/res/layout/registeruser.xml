@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp">
+
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstname"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/edittext"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lastname"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailaddress"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:background="@drawable/edittext"
+        android:inputType="textPassword"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="@string/address"
+        android:inputType="text"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="@string/mobile"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/register_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/button"
+        android:text="@string/btnRegister"
+        android:textColor="#fff"
+        android:nestedScrollingEnabled="true"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

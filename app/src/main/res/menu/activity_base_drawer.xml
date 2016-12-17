@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addPost"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="Add Job Post"/>
+        <item
+            android:id="@+id/viewPost"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="View Job Post" />
+        <item
+            android:id="@+id/viewUsers"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="View Users" />
+        <item
+            android:id="@+id/approveUser"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="Approve Users" />
+
+        <item
+            android:id="@+id/approvePost"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="Approve Post" />
+
+    </group>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Muster Sign/SignOut" />
+            </menu>
+    </item>
+
+<!--    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

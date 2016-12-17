@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addPost"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="Add Job Post"/>
+        <item
+            android:id="@+id/viewPost"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="View Job Post" />
+
+
+    </group>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Muster Sign/SignOut" />
+        </menu>
+    </item>
+</menu>

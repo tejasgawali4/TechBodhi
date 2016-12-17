@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:alignmentMode="alignBounds"
+        android:columnCount="4"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true"
+        android:layout_margin="0dp"
+        android:background="@drawable/edittext">
+
+        <TextView
+            android:id="@+id/u_id"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_columnSpan="1"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/u_firstname"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="right|center_horizontal"
+            android:layout_margin="2dp"
+            android:paddingBottom="2dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/u_lastname"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:gravity="left"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnViewUserDeatils"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/button"
+            android:text="More Details"
+            android:layout_columnSpan="1"
+            android:layout_marginRight="5dp"
+            android:onClick="" />
+
+</GridLayout>
+
+
+</LinearLayout>

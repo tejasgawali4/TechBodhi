@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignBounds"
+        android:columnCount="4"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true"
+        android:layout_gravity="right"
+        android:background="@drawable/edittext">
+
+        <ImageView
+            android:id="@+id/profileuser"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_columnSpan="1"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/u_firstname"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="right|center_horizontal"
+            android:layout_margin="2dp"
+            android:paddingBottom="2dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/u_lastname"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:gravity="left"
+            android:textStyle="bold" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_columnSpan="1"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnApproveUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/ic_approve"
+            android:layout_marginRight="5dp"
+            android:onClick="Approve" />
+
+        <ImageButton
+            android:id="@+id/btnRejectUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/ic_reject"
+            android:onClick="Reject" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>
