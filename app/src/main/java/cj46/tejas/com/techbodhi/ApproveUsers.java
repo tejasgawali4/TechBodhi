@@ -25,7 +25,7 @@ import java.util.HashMap;
 /**
  * Created by Carl_johnson on 12/5/2016.
  */
-public class ApproveUsers extends AppCompatActivity {
+public class ApproveUsers extends AppCompatActivity implements View.OnClickListener {
 
     ArrayList<HashMap<String, String>> viewuserarray;
     private String TAG = ViewPosts.class.getSimpleName();
@@ -43,10 +43,27 @@ public class ApproveUsers extends AppCompatActivity {
 
         ApproveListView = (ListView) findViewById(R.id.ApproveUsers);
 
+
         new ApproveUser().execute();
+
     }
 
-    public void Approve(AdapterView<?> parent, View view, int position, long id)
+    @Override
+    public void onClick(View v) {
+
+        if(btnApprove==v)
+        {
+            Approve();
+            Toast.makeText(ApproveUsers.this,"approve",Toast.LENGTH_SHORT).show();
+        }
+        if(btnReject==v)
+        {
+            Reject();
+            Toast.makeText(ApproveUsers.this,"Rejected..",Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void Approve()
     {
 
         final String u_id = "5";
@@ -92,12 +109,11 @@ public class ApproveUsers extends AppCompatActivity {
         aprv.execute();
     }
 
-    public void Reject(AdapterView<?> parent, View view, int position, long id)
+    public void Reject()
     {
-        long str=id;
-        Toast.makeText(getApplicationContext(),"Rejected..."+str,Toast.LENGTH_LONG).show();
-
+        Toast.makeText(getApplicationContext(),"Rejected...",Toast.LENGTH_LONG).show();
     }
+
 
     /**
      * Async task class to get json by making HTTP call
