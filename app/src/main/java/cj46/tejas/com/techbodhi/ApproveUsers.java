@@ -100,7 +100,7 @@ public class ApproveUsers extends AppCompatActivity implements View.OnClickListe
                 params.put(Config.KEY_USER_STATUS, status);
 
                 HttpConnection rh = new HttpConnection();
-                String res = rh.sendPostRequest(Config.URL_APPROVE, params);
+                String res = rh.sendPostRequest(Config.URL_APPROVE_user , params);
                 return res;
             }
         }

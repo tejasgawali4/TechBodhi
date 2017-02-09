@@ -1,15 +1,13 @@
 package cj46.tejas.com.techbodhi;
 
 import android.app.ProgressDialog;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.View;
 import android.widget.Button;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -19,33 +17,38 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ViewPosts extends AppCompatActivity {
+import static android.widget.Toast.LENGTH_LONG;
 
-    private String TAG = ViewPosts.class.getSimpleName();
-
+public class ViewPosts extends AppCompatActivity
+{
     private ProgressDialog pDialog;
-    private ListView postListView;
-    private Button btnViewPostDeatails;
-
-    ArrayList<HashMap<String, String>> viewpostarray;
+    ListView postListView;
+    public ViewPosts CustomViewPost = null;
+    public ArrayList<HashMap<String,String>> CustomListPostViewArray;
+    ViewPostAdapter adapter;
+    Resources res;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewpost);
 
-        viewpostarray = new ArrayList<>();
+        CustomViewPost = this;
 
-        postListView = (ListView) findViewById(R.id.viewpost);
-        btnViewPostDeatails = (Button) findViewById(R.id.btnViewPostDetails);
+        pDialog = new ProgressDialog(ViewPosts.this);
 
+        CustomListPostViewArray = new ArrayList<>();
+
+        res = getResources();
+
+        postListView= (ListView) findViewById(R.id.viewpost);
 
         new ViewPost().execute();
     }
 
-    public void ViewPostDetails(View v)
+    public void onItemClick(int mPostion)
     {
-
+     // Toast.makeText(getApplicationContext(),"mPostion" +mPostion, LENGTH_LONG).show();
     }
 
 
@@ -73,7 +76,7 @@ public class ViewPosts extends AppCompatActivity {
             // Making a request to url and getting response
             String jsonStr = sh.sendGetRequest(Config.URL_VIEW_POSTS);
 
-            Log.e(TAG, "Response from url: " + jsonStr);
+           // Log.e(TAG, "Response from url: " + jsonStr);
 
             if (jsonStr != null){
                 try {
@@ -86,66 +89,64 @@ public class ViewPosts extends AppCompatActivity {
                     for (int i = 0; i < result.length(); i++) {
                         JSONObject jsonResponce = result.getJSONObject(i);
 
-                        String heading = jsonResponce.getString("p_heading");
-                        String content = jsonResponce.getString("p_content");
+                        String companyId =jsonResponce.getString("p_id");
+                        String comapanyName = jsonResponce.getString("p_companyName");
+                        String companyProfile = jsonResponce.getString("p_companyProfile");
 
 
-                        System.out.println(heading);
-                        System.out.println(content);
+
+                        System.out.println(comapanyName);
+                        System.out.println(companyProfile);
 
                         // tmp hash map for single contact
                         HashMap<String, String> Post = new HashMap<>();
 
                         // adding each child node to HashMap key => value
-                        Post.put(Config.KEY_HEADING, heading);
-/*                        Post.put(Config.KEY_CONTENT, content);*/
+                        Post.put(Config.KEY_POST_ID,companyId);
+                        Post.put(Config.KEY_COMPANYNAME, comapanyName);
+                        Post.put(Config.KEY_COMPANYPROFILE,companyProfile);
+
+                        /*Post.put(Config.KEY_CONTENT, content);*/
 
                         // adding contact to contact list
-                        viewpostarray.add(Post);
+                        CustomListPostViewArray.add(Post);
                     }
                 } catch (final JSONException e) {
-                    Log.e(TAG, "Json parsing error: " + e.getMessage());
+                   // Log.e(TAG, "Json parsing error: " + e.getMessage());
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
                             Toast.makeText(getApplicationContext(),
                                     "Json parsing error: " + e.getMessage(),
-                                    Toast.LENGTH_LONG)
+                                    LENGTH_LONG)
                                     .show();
                         }
                     });
                 }
             } else {
-                Log.e(TAG, "Couldn't get json from server.");
+                //Log.e(TAG, "Couldn't get json from server.");
                 runOnUiThread(new Runnable() {
                     @Override
-                    public void run() {
-                        Toast.makeText(getApplicationContext(),
-                                "Couldn't get json from server. Check LogCat for possible errors!",
-                                Toast.LENGTH_LONG)
-                                .show();
+                    public void run()
+                    {
+                        Toast.makeText(getApplicationContext(),"Couldn't get json from server. Check LogCat for possible errors!", LENGTH_LONG).show();
                     }
                 });
             }
 
             return null;
         }
-
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
             // Dismiss the progress dialog
             if (pDialog.isShowing())
                 pDialog.dismiss();
-            /**
-             * Updating parsed JSON data into ListView
-             * */
-            ListAdapter adapter = new SimpleAdapter(
 
-                    ViewPosts.this, viewpostarray, R.layout.view_post_list,
-                    new String[]{"Heading"}, new int[]{R.id.Heading});
+            adapter = new ViewPostAdapter(CustomViewPost, CustomListPostViewArray, res);
 
             postListView.setAdapter(adapter);
+
 
         }
     }

@@ -1,5 +1,9 @@
 package cj46.tejas.com.techbodhi;
 
+import android.nfc.Tag;
+
+import static com.android.volley.VolleyLog.TAG;
+
 /**
  * Created by Carl_johnson on 12/5/2016.
  */
@@ -22,27 +26,49 @@ public class Config {
 
     //http://platformx.co.in/tbAndroidApp/viewUsers.php
 
-    public static final String URL_ADD_USER="http://platformx.co.in/tbAndroidApp/registerUser.php";
-    public static final String URL_ADD_POST = "http://platformx.co.in/tbAndroidApp/addPost.php";
-    public static final String URL_CHECK_USER ="http://platformx.co.in/tbAndroidApp/checkUser.php";
-    public static final String URL_VIEW_USER_BYID="http://platformx.co.in/tbAndroidApp/ViewUserById.php?u_id=";
-    public static final String URL_VIEW_USERS = "http://platformx.co.in/tbAndroidApp/viewUsers.php";
-    public static final String URL_VIEW_POSTS = "http://platformx.co.in/tbAndroidApp/viewPost.php";
-    public static final String URL_APPROVAL_USER = "http://platformx.co.in/tbAndroidApp/viewUserApprovals.php";
-    public static final String URL_APPROVE = "http://platformx.co.in/tbAndroidApp/ApproveUser.php";
-    public static final String URL_APPROVAL_POST = "http://platformx.co.in/tbAndroidApp/approvalPost.php?u_id=";
+    public static final String URL_ADD_USER="http://192.168.1.120/TBS_PORTAL/API/Registration.php";
+    public static final String URL_ADD_POST = "http://192.168.1.120/TBS_PORTAL/API/addPost.php";
+    public static final String URL_CHECK_USER ="http://192.168.1.120/TBS_PORTAL/API/checkUser.php";
+    public static final String URL_VIEW_POST_BYID="http://192.168.1.120/TBS_PORTAL/API/ViewPostById.php?jid=";
+    public static final String URL_VIEW_USERS = "http://192.168.1.120/TBS_PORTAL/API/viewUsers.php";
+    public static final String URL_VIEW_POSTS = "http://192.168.1.120/TBS_PORTAL/API/viewPost.php";
+    public static final String URL_APPROVAL_USER = "http://192.168.1.120/TBS_PORTAL/API/viewUserApprovals.php";
+    public static final String URL_APPROVE_user = "http://192.168.1.120/TBS_PORTAL/API/ApproveUser.php";
+    public static final String URL_APPROVAL_POST = "http://192.168.1.120/TBS_PORTAL/API/viewPostApprovals.php";
+    public static final String URL_APPROVE_post = "http://192.168.1.120/TBS_PORTAL/API/ApprovePost.php";
+    public static final String URL_UPDATE_JOBPOST= "http://192.168.1.120/TBS_PORTAL/API/updateJobPost.php";
 
     //Keys that will be used to send the request to php scripts
 
-    public static final String KEY_USER_FIRSTNAME = "firstname";
-    public static final String KEY_USER_LASTNAME = "lastname";
-    public static final String KEY_USERNAME ="username";
-    public static final String KEY_PASSWORD ="password";
-    public static final String KEY_DOB ="birthdate";
-    public static final String KEY_GENDER="gender";
-    public static final String KEY_ADDRESS = "address";
-    public static final String KEY_CITY = "city";
-    public static final String KEY_MOBILE = "mobile";
+    public static final String KEY_USER_FIRSTNAME = "u_fisrtname";
+    public static final String KEY_USER_LASTNAME = "u_lastname";
+    public static final String KEY_USERNAME ="u_username";
+    public static final String KEY_PASSWORD ="u_password";
+    public static final String KEY_EMAIL ="u_email";
+    public static final String KEY_DOB ="u_dob";
+    public static final String KEY_GENDER="u_gender";
+    public static final String KEY_ADDRESS = "u_address";
+    public static final String KEY_MOBILE = "u_contact";
+
+
+    //job post veriable keys
+
+    public static final String KEY_COMPANYNAME = "p_companyName";
+    public static final String KEY_NOTE = "p_note";
+    public static final String KEY_DEADLINE ="p_deadline";
+    public static final String KEY_COMPANYPROFILE ="p_companyProfile";
+    public static final String KEY_COMPANYCODE ="p_companyCode";
+    public static final String KEY_JOBDISCRIPTION ="p_jobDescription";
+    public static final String KEY_OTHERSKILLS="p_otherSkills";
+    public static final String KEY_RESPONSIBILITY = "p_responsibility";
+    public static final String KEY_SKILLREQUIRES = "p_skillsRequired";
+    public static final String KEY_PERCENTAGE = "p_percentageCriteria";
+    public static final String KEY_SALARYRANGE = "p_salaryRange";
+    public static final String KEY_INTERVIEWPROCESS ="p_interviewProcess";
+    public static final String KEY_JOBLOCATION ="p_jobLocation";
+    public static final String KEY_TESTLOCATION ="p_testLocation";
+
+
     public static final String KEY_USER_STATUS = "status";
 
     public static final String LOGIN_SUCCESS = "success";
@@ -61,18 +87,6 @@ public class Config {
     public static final String KEY_HEADING = "Heading";
     public static final String KEY_CONTENT = "Content";
 
-    //JSON Tags
-    public static final String TAG_USER_FIRSTNAME = "firstname";
-    public static final String TAG_USER_LASTNAME = "lastname";
-    public static final String TAG_USERNAME ="username";
-    public static final String TAG_PASSWORD ="password";
-    public static final String TAG_DOB ="birthdate";
-    public static final String TAG_GENDER="gender";
-    public static final String TAG_ADDRESS = "address";
-    public static final String TAG_CITY = "city";
-    public static final String TAG_MOBILE = "mobile";
-    public static final String TAG_USER_STATUS = "status";
-
     public static final String TAG_POST_ID ="p_id";
     public static final String TAG_HEADING = "Heading";
     public static final String TAG_CONTENT = "Content";
@@ -81,6 +95,4 @@ public class Config {
     //User id to pass with intent
     public static final String USER_ID = "u_id";
     public static final String TAG_USER_ID="2";
-
-
 }

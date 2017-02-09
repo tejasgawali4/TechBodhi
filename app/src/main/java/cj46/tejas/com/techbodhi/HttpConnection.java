@@ -31,11 +31,11 @@ public class HttpConnection {
     //This method is taking two arguments
     //First argument is the URL of the script to which we will send the request
     //Other is an HashMap with name value pairs containing the data to be send with the request
-    public String sendPostRequest(String requestURL,
-                                  HashMap<String, String> postDataParams) {
+    public String sendPostRequest(String requestURL, HashMap<String, String> postDataParams) {
         //Creating a URL
         URL url;
 
+        System.out.println(postDataParams.keySet() + "\n" + postDataParams.values());
         //StringBuilder object to store the message retrieved from the server
         StringBuilder sb = new StringBuilder();
         try {
@@ -51,29 +51,38 @@ public class HttpConnection {
             conn.setRequestMethod("POST");
             conn.setDoInput(true);
             conn.setDoOutput(true);
-
+            System.out.println("after Connection");
             //Creating an output stream
             OutputStream os = conn.getOutputStream();
 
+            System.out.println("os" + os);
             //Writing parameters to the request
             //We are using a method getPostDataString which is defined below
             BufferedWriter writer = new BufferedWriter(
                     new OutputStreamWriter(os, "UTF-8"));
             writer.write(getPostDataString(postDataParams));
 
+            System.out.println("writer" + writer.toString());
+            System.out.println("os 2" + os.toString());
+
             writer.flush();
             writer.close();
             os.close();
+
+            System.out.println("before ResponceCode");
             int responseCode = conn.getResponseCode();
+            System.out.println("after ResponceCode");
 
             if (responseCode == HttpsURLConnection.HTTP_OK) {
 
                 BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                 sb = new StringBuilder();
                 String response;
+
                 //Reading server response
                 while ((response = br.readLine()) != null){
                     sb.append(response);
+                    System.out.println("after Check responce" + response);
                 }
             }
 

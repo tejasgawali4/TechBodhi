@@ -87,6 +87,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 super.onPostExecute(s);
                 loading.dismiss();
                 String response = s;
+                System.out.println(response);
                 try {
                     JSONObject parentObject = new JSONObject(response);
                     //And then read attributes like

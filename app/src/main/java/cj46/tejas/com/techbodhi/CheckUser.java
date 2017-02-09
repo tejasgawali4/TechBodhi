@@ -37,7 +37,7 @@ public class CheckUser extends AppCompatActivity {
         }
         loading = ProgressDialog.show(this, "Please wait...", "Fetching...", false, false);
 
-        String url = Config.URL_VIEW_USER_BYID + id;//editTextId.getText().toString().trim();
+        String url = Config.URL_CHECK_USER + id;//editTextId.getText().toString().trim();
 
         StringRequest stringRequest = new StringRequest(url, new Response.Listener<String>() {
             @Override
@@ -81,7 +81,6 @@ public class CheckUser extends AppCompatActivity {
             password = UserData.getString(Config.KEY_PASSWORD);
             bithdate = UserData.getString(Config.KEY_DOB);
             address = UserData.getString(Config.KEY_ADDRESS);
-            city = UserData.getString(Config.KEY_CITY);
             mobile = UserData.getString(Config.KEY_MOBILE);
             status = UserData.getString(Config.KEY_USER_STATUS);
 
