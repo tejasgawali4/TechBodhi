@@ -2,11 +2,9 @@ package cj46.tejas.com.techbodhi;
 
 import android.app.ProgressDialog;
 import android.content.res.Resources;
-import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -91,7 +89,19 @@ public class ViewPosts extends AppCompatActivity
 
                         String companyId =jsonResponce.getString("p_id");
                         String comapanyName = jsonResponce.getString("p_companyName");
+                        String Note = jsonResponce.getString("p_note");
+                        String Deadline = jsonResponce.getString("p_deadline");
                         String companyProfile = jsonResponce.getString("p_companyProfile");
+                        String companyCode = jsonResponce.getString("p_companyCode");
+                        String JobDiscription = jsonResponce.getString("p_jobDescription");
+                        String OtherSkills = jsonResponce.getString("p_otherSkills");
+                        String Responsibility = jsonResponce.getString("p_responsibility");
+                        String SkillsRequired = jsonResponce.getString("p_skillsRequired");
+                        String Percentage = jsonResponce.getString("p_percentageCriteria");
+                        String SalaryRange = jsonResponce.getString("p_salaryRange");
+                        String InterviewProcess = jsonResponce.getString("p_interviewProcess");
+                        String JobLocation = jsonResponce.getString("p_jobLocation");
+                        String TestLocation = jsonResponce.getString("p_testLocation");
 
 
 
@@ -104,7 +114,19 @@ public class ViewPosts extends AppCompatActivity
                         // adding each child node to HashMap key => value
                         Post.put(Config.KEY_POST_ID,companyId);
                         Post.put(Config.KEY_COMPANYNAME, comapanyName);
+                        Post.put(Config.KEY_NOTE,Note);
+                        Post.put(Config.KEY_DEADLINE,Deadline);
                         Post.put(Config.KEY_COMPANYPROFILE,companyProfile);
+                        Post.put(Config.KEY_COMPANYCODE,companyCode);
+                        Post.put(Config.KEY_JOBDISCRIPTION,JobDiscription);
+                        Post.put(Config.KEY_OTHERSKILLS,OtherSkills);
+                        Post.put(Config.KEY_RESPONSIBILITY,Responsibility);
+                        Post.put(Config.KEY_SKILLREQUIRES,SkillsRequired);
+                        Post.put(Config.KEY_PERCENTAGE,Percentage);
+                        Post.put(Config.KEY_SALARYRANGE,SalaryRange);
+                        Post.put(Config.KEY_INTERVIEWPROCESS,InterviewProcess);
+                        Post.put(Config.KEY_JOBLOCATION,JobLocation);
+                        Post.put(Config.KEY_TESTLOCATION,TestLocation);
 
                         /*Post.put(Config.KEY_CONTENT, content);*/
 

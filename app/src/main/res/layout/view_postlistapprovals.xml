@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignBounds"
+        android:columnCount="3"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true"
+        android:background="@drawable/edittext">
+
+        <TextView
+            android:id="@+id/p_id"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_columnSpan="1"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="right|center_horizontal"
+            android:layout_margin="2dp"
+            android:paddingBottom="2dip"
+            android:textStyle="bold" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="127dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_columnSpan="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnApprovePost"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_approve"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:id="@+id/btnRejectPost"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_reject"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+    </GridLayout>
 
 </LinearLayout>

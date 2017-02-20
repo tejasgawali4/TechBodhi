@@ -71,6 +71,21 @@ public class ViewPostAdapter extends BaseAdapter
             holder = new ViewHolder();
             holder.company_id = (TextView) vi.findViewById(R.id.p_id);
             holder.company_name = (TextView) vi.findViewById(R.id.companyName);
+            holder.note = (TextView) vi.findViewById(R.id.Note);
+            holder.deadline = (TextView) vi.findViewById(R.id.deadline);
+            holder.companyProfile = (TextView) vi.findViewById(R.id.companyProfile);
+            holder.companyCode = (TextView) vi.findViewById(R.id.CompanyCode);
+            holder.JobDiscription = (TextView) vi.findViewById(R.id.jobDiscription);
+            holder.OtherSkills = (TextView) vi.findViewById(R.id.OtherSkills);
+            holder.Responsiblity = (TextView) vi.findViewById(R.id.Responsibility);
+            holder.SkillsRequired = (TextView) vi.findViewById(R.id.SkillsRequired);
+            holder.percentage = (TextView) vi.findViewById(R.id.Percentage);
+            holder.SalaryRange = (TextView) vi.findViewById(R.id.salaryRange);
+            holder.InterviewProcess = (TextView) vi.findViewById(R.id.InterviewProcess);
+            holder.JobLocation = (TextView) vi.findViewById(R.id.JobLoction);
+            holder.TestLocation = (TextView) vi.findViewById(R.id.testLocation);
+
+
             holder.btnViewPostDetails = (Button) vi.findViewById(R.id.btnViewPostDetails);
 
             vi.setTag(holder);
@@ -89,6 +104,19 @@ public class ViewPostAdapter extends BaseAdapter
 
                 holder.company_id.setText(tempValues.get("p_id").toString());
                 holder.company_name.setText(tempValues.get("p_companyName").toString());
+                holder.note.setText(tempValues.get("p_note").toString());
+                holder.deadline.setText(tempValues.get("p_deadline").toString());
+                holder.companyProfile.setText(tempValues.get("p_companyProfile").toString());
+                holder.companyCode.setText(tempValues.get("p_companyCode").toString());
+                holder.JobDiscription.setText(tempValues.get("p_jobDescription").toString());
+                holder.OtherSkills.setText(tempValues.get("p_otherSkills").toString());
+                holder.Responsiblity.setText(tempValues.get("p_responsibility").toString());
+                holder.SkillsRequired.setText(tempValues.get("p_skillsRequired").toString());
+                holder.percentage.setText(tempValues.get("p_percentageCriteria").toString());
+                holder.SalaryRange.setText(tempValues.get("p_salaryRange").toString());
+                holder.InterviewProcess.setText(tempValues.get("p_interviewProcess").toString());
+                holder.JobLocation.setText(tempValues.get("p_jobLocation").toString());
+                holder.TestLocation.setText(tempValues.get("p_testLocation").toString());
                 holder.btnViewPostDetails = (Button) vi.findViewById(R.id.btnViewPostDetails);
 
                 holder.btnViewPostDetails.setOnClickListener(new View.OnClickListener()
@@ -121,8 +149,8 @@ public class ViewPostAdapter extends BaseAdapter
     public static class ViewHolder
     {
 
-        public TextView company_id;
-        public TextView company_name;
+        public TextView company_id ,company_name, note , deadline, companyProfile , companyCode ,JobDiscription , OtherSkills, Responsiblity ,SkillsRequired , percentage ,SalaryRange ,
+        InterviewProcess ,JobLocation , TestLocation;
         Button btnViewPostDetails;
 
     }

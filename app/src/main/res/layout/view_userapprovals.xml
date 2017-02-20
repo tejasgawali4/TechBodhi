@@ -8,18 +8,17 @@
 
     <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:alignmentMode="alignBounds"
         android:columnCount="4"
         android:columnOrderPreserved="false"
         android:useDefaultMargins="true"
-        android:layout_gravity="right"
         android:background="@drawable/edittext">
 
-        <ImageView
-            android:id="@+id/profileuser"
+        <TextView
+            android:id="@+id/u_id"
             android:layout_width="65dp"
-            android:layout_height="65dp"
+            android:layout_height="37dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_columnSpan="1"
@@ -48,31 +47,31 @@
             android:textStyle="bold" />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
+            android:layout_width="146dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
             android:layout_columnSpan="1"
             android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/btnApproveUser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_gravity="right"
-            app:srcCompat="@drawable/ic_approve"
-            android:layout_marginRight="5dp"
-            android:onClick="Approve" />
+            <ImageButton
+                android:id="@+id/btnApproveUser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_approve"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
 
-        <ImageButton
-            android:id="@+id/btnRejectUser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_gravity="right"
-            android:layout_marginRight="5dp"
-            app:srcCompat="@drawable/ic_reject"
-            android:onClick="Reject" />
+            <ImageButton
+                android:id="@+id/btnRejectUser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_reject"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
 
         </LinearLayout>
 
