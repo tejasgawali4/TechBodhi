@@ -1,71 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:descendantFocusability="blocksDescendants"
-    android:orientation="horizontal">
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="@drawable/edittext">
 
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginLeft="@dimen/feed_item_margin"
+    android:layout_marginRight="@dimen/feed_item_margin"
+    android:layout_marginTop="@dimen/feed_item_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+    android:paddingTop="@dimen/feed_item_padding_top_bottom"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/feed_item_padding_left_right"
+        android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/postPic"
+            android:layout_width="@dimen/feed_item_profile_pic"
+            android:layout_height="@dimen/feed_item_profile_pic"
+            android:scaleType="fitCenter"
+            android:background="@drawable/businessman">
+        </com.android.volley.toolbox.NetworkImageView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/feed_item_profile_info_padd" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/feed_item_profile_info_padd"
+                android:layout_weight="1.23">
+
+                <TextView
+                    android:id="@+id/p_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/timestamp"
+                    android:layout_weight="89.67"
+                    android:textSize="@dimen/feed_item_timestamp" />
+
+                <TextView
+                    android:id="@+id/companyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/feed_item_profile_name"
+                    android:layout_weight="210.21"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/deadline"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/timestamp"
+                android:textSize="@dimen/feed_item_timestamp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--2nd-->
+
+
+
+
+
+
+    <!-- Section  Main Details-->
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:alignmentMode="alignBounds"
-        android:columnCount="3"
-        android:columnOrderPreserved="false"
-        android:useDefaultMargins="true"
-        android:background="@drawable/edittext">
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/select"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:cropToPadding="true"
+            android:onClick="select Date"
+            android:src="@drawable/ic_experience"
+            android:padding="10dp"/>
 
         <TextView
-            android:id="@+id/p_id"
-            android:layout_width="65dp"
-            android:layout_height="37dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_columnSpan="1"
-            android:layout_gravity="left"
-            android:layout_marginLeft="5dp"
-            android:src="@mipmap/ic_launcher" />
-
-        <TextView
-            android:id="@+id/companyName"
-            android:layout_width="183dp"
+            android:id="@+id/Experience"
+            android:layout_width="116dp"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="1"
-            android:layout_gravity="right|center_horizontal"
-            android:layout_margin="2dp"
-            android:paddingBottom="2dip"
-            android:textStyle="bold" />
-
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="127dp"
-            android:layout_height="51dp"
+            android:paddingBottom="5dp"
             android:layout_gravity="center"
-            android:layout_columnSpan="1"
-            android:orientation="horizontal">
+            android:text="0-5 Years"
+            android:gravity="fill_horizontal" />
 
-            <ImageButton
-                android:id="@+id/btnApprovePost"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="right"
-                android:background="@drawable/ic_approve"
-                android:layout_margin="10dp"
-                android:padding="10dp" />
 
-            <ImageButton
-                android:id="@+id/btnRejectPost"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="right"
-                android:background="@drawable/ic_reject"
-                android:layout_margin="10dp"
-                android:padding="10dp" />
+        <ImageButton
+            android:id="@+id/vacancies1"
+            android:layout_width="32dp"
+            android:layout_height="29dp"
+            android:cropToPadding="true"
+            android:onClick="selectDate"
+            android:src="@drawable/ic_vacancies"
+            android:padding="10dp"/>
 
-        </LinearLayout>
+        <TextView
+            android:id="@+id/vacancies"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center"
+            android:text="5-10 vacancies" />
 
-    </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/sal"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:onClick="selectDate"
+            android:src="@drawable/ic_salary"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/salaryRange"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:linksClickable="true"
+            android:paddingBottom="5dp"
+            android:textColorLink="@color/link"
+            android:gravity="fill_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_columnSpan="1"
+        android:orientation="horizontal"
+        android:layout_weight="100"
+        android:padding="15dp"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/btnApprovePost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_approve"
+            android:layout_margin="10dp"
+            android:text="Approve"
+            android:padding="10dp" />
+
+
+        <Button
+            android:id="@+id/btnRejectPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_reject"
+            android:text="Reject"
+            android:layout_margin="10dp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

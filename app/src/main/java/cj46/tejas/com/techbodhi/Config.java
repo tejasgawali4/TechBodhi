@@ -10,19 +10,25 @@ import static com.android.volley.VolleyLog.TAG;
 public class Config
 {
         //Address of our scripts of the CRUD
-    /*
 
-        public static final String URL_ADD_USER="http://192.168.1.120/Techbodhi/registerUser.php";
-        public static final String URL_ADD_POST = "http://192.168.1.120/Techbodhi/addPost.php";
-        public static final String URL_CHECK_USER ="http://192.168.1.120/Techbodhi/checkUser.php";
-        public static final String URL_VIEW_USER_BYID="http://192.168.1.120/Techbodhi/ViewUserById.php?u_id=";
-        public static final String URL_VIEW_USERS = "http://192.168.1.120/Techbodhi/viewUsers.php";
-        public static final String URL_VIEW_POSTS = "http://192.168.1.120/Techbodhi/viewPost.php";
-        public static final String URL_APPROVAL_USER = "http://192.168.1.120/Techbodhi/viewUserApprovals.php";
-        public static final String URL_APPROVE = "http://192.168.1.120/Techbodhi/ApproveUser.php";
-        public static final String URL_APPROVAL_POST = "http://192.168.1.120/Techbodhi/approvalPost.php?u_id=";
 
-    */
+/*
+    public static final String URL_ADD_USER = "http://PLATFORMX.CO.IN/tbAndroidApp/Registration.php";
+    public static final String URL_ADD_POST = "http://PLATFORMX.CO.IN/tbAndroidApp/addPost.php";
+    public static final String URL_CHECK_USER ="http://PLATFORMX.CO.IN/tbAndroidApp/checkUser.php";
+    public static final String URL_VIEW_POST_BYID = "http://PLATFORMX.CO.IN/tbAndroidApp/ViewPostById.php?jid=";
+    public static final String URL_VIEW_USERS = "http://PLATFORMX.CO.IN/tbAndroidAppviewUsers.php";
+    public static final String URL_VIEW_POSTS = "http://PLATFORMX.CO.IN/tbAndroidApp/viewPost.php";
+    public static final String URL_APPROVAL_USER = "http://PLATFORMX.CO.IN/tbAndroidApp/viewUserApprovals.php";
+    public static final String URL_APPROVE_user = "http://PLATFORMX.CO.IN/tbAndroidApp/ApproveUser.php";
+    public static final String URL_APPROVAL_POST = "http://PLATFORMX.CO.IN/tbAndroidApp/viewPostApprovals.php";
+    public static final String URL_APPROVE_post = "http://PLATFORMX.CO.IN/tbAndroidApp/ApprovePost.php";
+    public static final String URL_UPDATE_JOBPOST = "http://PLATFORMX.CO.IN/tbAndroidApp/updateJobPost.php";
+    public static final String URL_USER_PANEL_VIEWPOST = "http://PLATFORMX.CO.IN/tbAndroidApp/UserPanelViewJobPost.php";
+    public static final String URL_VIEWPOSTS_BY_ID = "http://PLATFORMX.CO.IN/tbAndroidApp/UserPanelViewJobPostBYId.php?pid=";
+    public static final String URL_APPLY_FOR_JOB = "http://PLATFORMX.CO.IN/tbAndroidApp/UserPanelApplyJob.php?pid=";
+
+*/
 
 
     //http://platformx.co.in/tbAndroidApp/viewUsers.php
@@ -41,6 +47,8 @@ public class Config
     public static final String URL_USER_PANEL_VIEWPOST= "http://192.168.1.4/TBS_PORTAL/API/UserPanelViewJobPost.php";
     public static final String URL_VIEWPOSTS_BY_ID="http://192.168.1.4/TBS_PORTAL/API/UserPanelViewJobPostBYId.php?pid=";
     public static final String URL_APPLY_FOR_JOB="http://192.168.1.4/TBS_PORTAL/API/UserPanelApplyJob.php?pid=";
+
+
     //Keys that will be used to send the request to php scripts
 
     public static final String KEY_USER_FIRSTNAME = "u_fisrtname";

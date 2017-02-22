@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageButton;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -84,8 +84,8 @@ public class ApproveUserAdapter extends BaseAdapter{
             holder.uid = (TextView) vi.findViewById(R.id.u_id);
             holder.firstname = (TextView) vi.findViewById(R.id.u_firstname);
             holder.lastname = (TextView) vi.findViewById(R.id.u_lastname);
-            holder.b1 = (ImageButton) vi.findViewById(R.id.btnApproveUser);
-            holder.b2 = (ImageButton) vi.findViewById(R.id.btnRejectUser);
+            holder.b1 = (Button) vi.findViewById(R.id.btnApproveUser);
+            holder.b2 = (Button) vi.findViewById(R.id.btnRejectUser);
 //            System.out.println("In MyListAdapter ... getView()....FirstName--> "+holder.firstname.getText() +" LastName -->" +holder.lastname.getText() );
 
             /************  Set holder with LayoutInflater ************/
@@ -111,8 +111,8 @@ public class ApproveUserAdapter extends BaseAdapter{
             holder.uid.setText(tempValues1.get("u_id").toString());
             holder.firstname.setText(tempValues1.get("u_firstname").toString());
             holder.lastname.setText(tempValues1.get("u_firstname").toString());
-            holder.b1 = (ImageButton) vi.findViewById(R.id.btnApproveUser);
-            holder.b2 = (ImageButton) vi.findViewById(R.id.btnRejectUser);
+            holder.b1 = (Button) vi.findViewById(R.id.btnApproveUser);
+            holder.b2 = (Button) vi.findViewById(R.id.btnRejectUser);
 
             System.out.println("In MyListAdapter ... getView() in ELSE....U_id--> " + holder.uid.getText() + " FirstName--> " + holder.firstname.getText() + " LastName -->" + holder.lastname.getText());
 
@@ -274,8 +274,8 @@ public class ApproveUserAdapter extends BaseAdapter{
         public TextView uid;
         public TextView firstname;
         public TextView lastname;
-        ImageButton b1;
-        ImageButton b2;
+        Button b1;
+        Button b2;
 
     }
 

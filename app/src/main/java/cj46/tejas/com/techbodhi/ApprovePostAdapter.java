@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageButton;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,7 +30,6 @@ public class ApprovePostAdapter extends BaseAdapter{
     private static LayoutInflater inflater = null;
     public Resources res;
     public String apr, rjt;
-
     private Activity activity;
     private ArrayList<HashMap<String, String>> data;
 
@@ -83,8 +82,10 @@ public class ApprovePostAdapter extends BaseAdapter{
             holder = new ViewHolder();
             holder.pid = (TextView) vi.findViewById(R.id.p_id);
             holder.companyName = (TextView) vi.findViewById(R.id.companyName);
-            holder.b1 = (ImageButton) vi.findViewById(R.id.btnApprovePost);
-            holder.b2 = (ImageButton) vi.findViewById(R.id.btnRejectPost);
+            holder.date=(TextView) vi.findViewById(R.id.deadline);
+            holder.Salary =(TextView)vi.findViewById(R.id.salaryRange);
+            holder.b1 = (Button) vi.findViewById(R.id.btnApprovePost);
+            holder.b2 = (Button) vi.findViewById(R.id.btnRejectPost);
 //            System.out.println("In MyListAdapter ... getView()....FirstName--> "+holder.firstname.getText() +" LastName -->" +holder.lastname.getText() );
 
             /************  Set holder with LayoutInflater ************/
@@ -109,10 +110,12 @@ public class ApprovePostAdapter extends BaseAdapter{
             holder.lastname.setText(tempValues.getLastname());*/
             holder.pid.setText(tempValues1.get("p_id").toString());
             holder.companyName.setText(tempValues1.get("p_companyName").toString());
-            holder.b1 = (ImageButton) vi.findViewById(R.id.btnApprovePost);
-            holder.b2 = (ImageButton) vi.findViewById(R.id.btnRejectPost);
+            holder.date.setText(tempValues1.get("p_deadline").toString());
+            holder.Salary.setText(tempValues1.get("p_salaryRange").toString());
+            holder.b1 = (Button) vi.findViewById(R.id.btnApprovePost);
+            holder.b2 = (Button) vi.findViewById(R.id.btnRejectPost);
 
-            System.out.println("In MyListAdapter ... getView() in ELSE....pid--> " + holder.pid.getText() + " FirstName--> " + holder.companyName.getText());
+            System.out.println("In MyListAdapter ... getView() in ELSE....pid--> " + holder.pid.getText() + " FirstName--> " + holder.companyName.getText() );
 
             holder.b1.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -279,11 +282,8 @@ public class ApprovePostAdapter extends BaseAdapter{
      *********/
     public static class ViewHolder
     {
-        public TextView pid;
-        public TextView companyName;
-        ImageButton b1;
-        ImageButton b2;
-
+        public TextView pid,companyName,date,Salary;
+        Button b1,b2;
     }
 
     /*********

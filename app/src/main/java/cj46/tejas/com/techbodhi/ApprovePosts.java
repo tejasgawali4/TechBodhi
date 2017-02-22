@@ -65,7 +65,7 @@ public class ApprovePosts extends Activity {
      *************/
 
 
-    private class Main extends AsyncTask<Void, Void, Void> {
+    protected class Main extends AsyncTask<Void, Void, Void> {
 
         @Override
         protected void onPreExecute()
@@ -93,7 +93,7 @@ public class ApprovePosts extends Activity {
             // Making a request to url and getting response
             String jsonStr = sh.sendGetRequest(Config.URL_APPROVAL_POST);
 
-            //System.out.println("json :- " +jsonStr);
+            System.out.println("json :- " +jsonStr);
 
             if (jsonStr != null) {
                 try {
@@ -108,14 +108,18 @@ public class ApprovePosts extends Activity {
 
                         String pid = jsonResponce.getString("p_id");
                         String companyName = jsonResponce.getString("p_companyName");
+                        String deadline = jsonResponce.getString("p_deadline");
+                        String Salary = jsonResponce.getString("p_salaryRange");
 
-                        System.out.println("In MainActivity ... Setting List Data....pid ->" + pid + " p_companyName-->" +companyName);
+                        System.out.println("In MainActivity ... Setting List Data....pid ->" + pid + " p_companyName-->" +companyName+ "deadline-->"+deadline+ "salary-->"+Salary );
 
                         HashMap<String, String> Post = new HashMap<>();
 
                         // adding each child node to HashMap key => value
                         Post.put("p_id",pid);
                         Post.put("p_companyName", companyName);
+                        Post.put("p_deadline",deadline);
+                        Post.put("p_salaryRange",Salary);
 
                          System.out.println("In MainActivity ... Setting List Data...." + i);
 
