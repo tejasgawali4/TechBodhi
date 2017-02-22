@@ -1,14 +1,11 @@
 package cj46.tejas.com.techbodhi;
 
 import android.app.ProgressDialog;
+import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.widget.Button;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -18,31 +15,40 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/**
- * Created by Carl_johnson on 12/5/2016.
- */
+import static android.widget.Toast.LENGTH_LONG;
 
-public class ViewUsers extends AppCompatActivity {
-
-    private String TAG = ViewPosts.class.getSimpleName();
-
+public class ViewUsers extends AppCompatActivity
+{
     private ProgressDialog pDialog;
-    private ListView postListView;
-    private Button btnViewUserDeatils;
-
-    ArrayList<HashMap<String, String>> viewuserarray;
+    ListView UserListView;
+    public ViewUsers CustomViewUser = null;
+    public ArrayList<HashMap<String,String>> CustomListUserViewArray;
+    ViewUserAdapter adapter;
+    Resources res;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.viewusers);
 
-        viewuserarray = new ArrayList<>();
+        CustomViewUser = this;
 
-        postListView = (ListView) findViewById(R.id.viewusers);
+        pDialog = new ProgressDialog(ViewUsers.this);
+
+        CustomListUserViewArray = new ArrayList<>();
+
+        res = getResources();
+
+        UserListView= (ListView) findViewById(R.id.view_user_list);
 
         new ViewUser().execute();
     }
+
+    public void onItemClick(int mPostion)
+    {
+        // Toast.makeText(getApplicationContext(),"mPostion" +mPostion, LENGTH_LONG).show();
+    }
+
 
     /**
      * Async task class to get json by making HTTP call
@@ -68,7 +74,7 @@ public class ViewUsers extends AppCompatActivity {
             // Making a request to url and getting response
             String jsonStr = sh.sendGetRequest(Config.URL_VIEW_USERS);
 
-            Log.e(TAG, "Response from url: " + jsonStr);
+            // Log.e(TAG, "Response from url: " + jsonStr);
 
             if (jsonStr != null){
                 try {
@@ -81,14 +87,30 @@ public class ViewUsers extends AppCompatActivity {
                     for (int i = 0; i < result.length(); i++) {
                         JSONObject jsonResponce = result.getJSONObject(i);
 
-                        String uid=jsonResponce.getString("u_id");
+                        String uid =jsonResponce.getString("u_id");
                         String firstname = jsonResponce.getString("u_fisrtname");
                         String lastname = jsonResponce.getString("u_lastname");
-                        btnViewUserDeatils = (Button) findViewById(R.id.btnViewUserDeatils);
+                        String address = jsonResponce.getString("u_address");
+                        String dob = jsonResponce.getString("u_dob");
+                        String gender = jsonResponce.getString("u_gender");
+                        String contact = jsonResponce.getString("u_contact");
+                        String email = jsonResponce.getString("u_email");
+                        String username = jsonResponce.getString("u_username");
+                        String ssc_per = jsonResponce.getString("u_ssc_per");
+                        String ssc_passingyear = jsonResponce.getString("u_ssc_passingyear");
+                        String hsc_per = jsonResponce.getString("u_hsc_per");
+                        String hsc_passingyear = jsonResponce.getString("u_hsc_passingyear");
+                        String hsc_stream = jsonResponce.getString("u_hsc_stream");
+                        String diploma_per = jsonResponce.getString("u_diploma_per");
+                        String diploma_stream =jsonResponce.getString("u_diploma_stream");
+                        String diploma_passingyear = jsonResponce.getString("u_diploma_passingyear");
+                        String graduation_per = jsonResponce.getString("u_graduation_per");
+                        String graduation_stream = jsonResponce.getString("u_graduation_stream");
+                        String graduation_passingyear = jsonResponce.getString("u_graduation_passingyear");
+                        String postGrad_per = jsonResponce.getString("u_postGrad_per");
+                        String postGrad_stream = jsonResponce.getString("u_postGrad_stream");
+                        String post_passingyear = jsonResponce.getString("u_post_passingyear");
 
-                        System.out.println(uid);
-                        System.out.println(firstname);
-                        System.out.println(lastname);
 
                         // tmp hash map for single contact
                         HashMap<String, String> User = new HashMap<>();
@@ -96,54 +118,69 @@ public class ViewUsers extends AppCompatActivity {
                         // adding each child node to HashMap key => value
                         User.put(Config.USER_ID,uid);
                         User.put(Config.KEY_USER_FIRSTNAME, firstname);
-                        User.put(Config.KEY_USER_LASTNAME, lastname);
+                        User.put(Config.KEY_USER_LASTNAME,lastname);
+                        User.put(Config.KEY_ADDRESS,address);
+                        User.put(Config.KEY_DOB,dob);
+                        User.put(Config.KEY_GENDER,gender);
+                        User.put(Config.KEY_MOBILE,contact);
+                        User.put(Config.KEY_EMAIL,email);
+                        User.put(Config.KEY_USERNAME,username);
+                        User.put(Config.KEY_SSC_PER,ssc_per);
+                        User.put(Config.KEY_SSC_PASSING_YEAR,ssc_passingyear);
+                        User.put(Config.KEY_HSC_PER,hsc_per);
+                        User.put(Config.KEY_HSC_PASSING_YEAR,hsc_passingyear);
+                        User.put(Config.KEY_HSC_STREAM,hsc_stream);
+                        User.put(Config.KEY_DIPLOMA_PER,diploma_per);
+                        User.put(Config.KEY_DIPLOMA_STREAM,diploma_stream);
+                        User.put(Config.KEY_DIPLOMA_PASSING_YEAR,diploma_passingyear);
+                        User.put(Config.KEY_GRADUATION_PER,graduation_per);
+                        User.put(Config.KEY_GRADUATION_STREAM,graduation_stream);
+                        User.put(Config.KEY_GRADUATION_PASSING_YEAR,graduation_passingyear);
+                        User.put(Config.KEY_POST_GRAD_PER,postGrad_per);
+                        User.put(Config.KEY_POST_GRAD_STREAM,postGrad_stream);
+                        User.put(Config.KEY_POST_GRAD_PASSING_YEAR,post_passingyear);
+
+                        /*Post.put(Config.KEY_CONTENT, content);*/
 
                         // adding contact to contact list
-                        viewuserarray.add(User);
+                        CustomListUserViewArray.add(User);
                     }
                 } catch (final JSONException e) {
-                    Log.e(TAG, "Json parsing error: " + e.getMessage());
+                    // Log.e(TAG, "Json parsing error: " + e.getMessage());
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
                             Toast.makeText(getApplicationContext(),
                                     "Json parsing error: " + e.getMessage(),
-                                    Toast.LENGTH_LONG)
+                                    LENGTH_LONG)
                                     .show();
                         }
                     });
                 }
             } else {
-                Log.e(TAG, "Couldn't get json from server.");
+                //Log.e(TAG, "Couldn't get json from server.");
                 runOnUiThread(new Runnable() {
                     @Override
-                    public void run() {
-                        Toast.makeText(getApplicationContext(),
-                                "Couldn't get json from server. Check LogCat for possible errors!",
-                                Toast.LENGTH_LONG)
-                                .show();
+                    public void run()
+                    {
+                        Toast.makeText(getApplicationContext(),"Couldn't get json from server. Check LogCat for possible errors!", LENGTH_LONG).show();
                     }
                 });
             }
 
             return null;
         }
-
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
             // Dismiss the progress dialog
             if (pDialog.isShowing())
                 pDialog.dismiss();
-            /**
-             * Updating parsed JSON data into ListView
-             * */
-            ListAdapter adapter = new SimpleAdapter(
 
-                    ViewUsers.this, viewuserarray, R.layout.view_user_list,
-                    new String[]{ "firstname", "lastname"}, new int[]{ R.id.u_firstname, R.id.u_lastname});
+            adapter = new ViewUserAdapter(CustomViewUser, CustomListUserViewArray, res);
 
-            postListView.setAdapter(adapter);
+            UserListView.setAdapter(adapter);
+
 
         }
     }

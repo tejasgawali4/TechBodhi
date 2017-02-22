@@ -30,7 +30,6 @@ public class Config
 
 */
 
-
     //http://platformx.co.in/tbAndroidApp/viewUsers.php
 
     public static final String URL_ADD_USER="http://192.168.1.4/TBS_PORTAL/API/Registration.php";
@@ -60,6 +59,22 @@ public class Config
     public static final String KEY_GENDER="u_gender";
     public static final String KEY_ADDRESS = "u_address";
     public static final String KEY_MOBILE = "u_contact";
+    public static final String KEY_SSC_PER = "u_ssc_per";
+    public static final String KEY_SSC_PASSING_YEAR = "u_ssc_passingyear";
+    public static final String KEY_HSC_PER = "u_hsc_per";
+    public static final String KEY_HSC_PASSING_YEAR = "u_hsc_passingyear";
+    public static final String KEY_HSC_STREAM = "u_hsc_stream";
+    public static final String KEY_DIPLOMA_PER = "u_diploma_per";
+    public static final String KEY_DIPLOMA_STREAM = "u_diploma_stream";
+    public static final String KEY_DIPLOMA_PASSING_YEAR = "u_diploma_passingyear";
+    public static final String KEY_GRADUATION_PER = "u_graduation_per";
+    public static final String KEY_GRADUATION_STREAM = "u_graduation_stream";
+    public static final String KEY_GRADUATION_PASSING_YEAR = "u_graduation_passingyear";
+    public static final String KEY_POST_GRAD_PER = "u_postGrad_per";
+    public static final String KEY_POST_GRAD_STREAM = "u_postGrad_stream";
+    public static final String KEY_POST_GRAD_PASSING_YEAR = "u_post_passingyear";
+
+
 
 
     //job post veriable keys
