@@ -36,6 +36,7 @@ public class Config
     public static final String URL_ADD_POST = "http://192.168.1.4/TBS_PORTAL/API/addPost.php";
     public static final String URL_CHECK_USER ="http://192.168.1.4/TBS_PORTAL/API/checkUser.php";
     public static final String URL_VIEW_POST_BYID="http://192.168.1.4/TBS_PORTAL/API/ViewPostById.php?jid=";
+    public static final String URL_VIEW_USER_BYID="http://192.168.1.4/TBS_PORTAL/API/ViewUserById.php?uid=";
     public static final String URL_VIEW_USERS = "http://192.168.1.4/TBS_PORTAL/API/viewUsers.php";
     public static final String URL_VIEW_POSTS = "http://192.168.1.4/TBS_PORTAL/API/viewPost.php";
     public static final String URL_APPROVAL_USER = "http://192.168.1.4/TBS_PORTAL/API/viewUserApprovals.php";
