@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:hint="@string/firstname"
         android:layout_gravity="center_vertical"
-        android:background="@drawable/edittext"
         android:layout_margin="10dp"
         android:padding="10dp" />
 
@@ -28,7 +27,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="@string/lastname"
-        android:background="@drawable/edittext"
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
         android:padding="10dp" />
@@ -38,7 +36,6 @@
         android:id="@+id/address"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/edittext"
         android:hint="@string/address"
         android:inputType="text"
         android:layout_gravity="center_vertical"
@@ -50,8 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="horizontal"
-        android:id="@+id/date"
-        android:background="@drawable/edittext">
+        android:id="@+id/date">
 
         <EditText
             android:id="@+id/dob"
@@ -79,7 +75,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@drawable/edittext"
         android:layout_margin="5dp"
         android:padding="10dp">
 
@@ -106,7 +101,6 @@
         android:id="@+id/mobile"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/edittext"
         android:hint="@string/mobile"
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
@@ -117,7 +111,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="@string/emailaddress"
-        android:background="@drawable/edittext"
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
         android:padding="10dp" />
@@ -127,7 +120,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="@string/username"
-        android:background="@drawable/edittext"
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
         android:padding="10dp" />
@@ -138,7 +130,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"
-        android:background="@drawable/edittext"
         android:inputType="textPassword"
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
@@ -150,7 +141,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"/>
 
     <Button
         android:id="@+id/btnRegister"

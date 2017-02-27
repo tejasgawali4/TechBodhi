@@ -148,6 +148,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                     startActivity(loginAdmin);
                                     //Toast.makeText(getApplicationContext(),"Admin",Toast.LENGTH_SHORT).show();
                                 }
+                                else
+                                {
+                                    
+                                }
                             }
                     }
                     catch (final JSONException e)

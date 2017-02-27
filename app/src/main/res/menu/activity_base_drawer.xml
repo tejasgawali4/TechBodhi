@@ -1,30 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/addPost"
-            android:icon="@drawable/ic_leave_bal"
-            android:title="Add Job Post"/>
-        <item
-            android:id="@+id/viewPost"
-            android:icon="@drawable/ic_leave_bal"
-            android:title="View Job Post" />
-        <item
-            android:id="@+id/viewUsers"
-            android:icon="@drawable/ic_leave_bal"
-            android:title="View Users" />
-        <item
-            android:id="@+id/approveUser"
-            android:icon="@drawable/ic_leave_bal"
-            android:title="Approve Users" />
+    <item android:title="Basics">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/addPost"
+                    android:icon="@drawable/ic_add"
+                    android:title="Add Job Post"/>
+                <item
+                    android:id="@+id/viewPost"
+                    android:icon="@drawable/ic_job"
+                    android:title="View Job Post" />
+                <item
+                    android:id="@+id/viewUsers"
+                    android:icon="@drawable/ic_users"
+                    android:title="View Users" />
 
-        <item
-            android:id="@+id/approvePost"
-            android:icon="@drawable/ic_leave_bal"
-            android:title="Approve Post" />
+            </group>
+        </menu>
+    </item>
 
-    </group>
+    <item android:title="Approvals">
+        <menu>
+            <item
+                android:id="@+id/approveUser"
+                android:icon="@drawable/ic_user_approve"
+                android:title="Approve Users" />
+
+            <item
+                android:id="@+id/approvePost"
+                android:icon="@drawable/ic_card_travel_black_24dp"
+                android:title="Approve Post" />
+        </menu>
+    </item>
 
     <item android:title="Logout">
         <menu>

@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/addPost"
-            android:icon="@drawable/ic_leave_bal"
-            android:title="Add Job Post"/>
-        <item
-            android:id="@+id/UserPanelViewPost"
-            android:icon="@drawable/ic_leave_bal"
-            android:title="View Job Post" />
+    <item android:title="Basics">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/EditProfile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Edit Profile" />
+                <item
+                    android:id="@+id/addPost"
+                    android:icon="@drawable/ic_add"
+                    android:title="Add Job Post"/>
+                <item
+                    android:id="@+id/UserPanelViewPost"
+                    android:icon="@drawable/ic_job"
+                    android:title="View Job Post" />
 
 
-    </group>
+            </group>
+        </menu>
+    </item>
 
     <item android:title="Logout">
         <menu>

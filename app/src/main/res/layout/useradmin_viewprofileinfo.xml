@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
@@ -121,7 +125,7 @@
             android:layout_margin="5dp"
             android:padding="5dp" />
 
-<!--Date of birth & Email-->
+        <!--Date of birth & Email-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -251,35 +255,35 @@
         </LinearLayout>
 
 
-<!--      Address-->
+        <!--      Address-->
 
-            <LinearLayout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/Add"
+                android:layout_height="wrap_content"
+                android:text="Address :"
+                android:textStyle="bold"
+                android:layout_width="60dp" />
+
+            <TextView
+                android:id="@+id/Address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_vertical"
-                android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
-                android:weightSum="1">
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                android:paddingTop="@dimen/feed_item_status_pad_top"
+                android:padding="0dp" />
 
-                <TextView
-                    android:id="@+id/Add"
-                    android:layout_height="wrap_content"
-                    android:text="Address :"
-                    android:textStyle="bold"
-                    android:layout_width="60dp" />
-
-                <TextView
-                    android:id="@+id/Address"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingLeft="@dimen/feed_item_status_pad_left_right"
-                    android:paddingRight="@dimen/feed_item_status_pad_left_right"
-                    android:paddingTop="@dimen/feed_item_status_pad_top"
-                    android:padding="0dp" />
-
-            </LinearLayout>
+        </LinearLayout>
 
 
         <TextView
@@ -302,288 +306,288 @@
             android:padding="5dp" />
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="@android:drawable/progress_horizontal"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/course"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="1"
-                android:background="@android:drawable/progress_horizontal"
-                android:padding="5dp"
-                android:layout_margin="5dp">
+                android:text="Course "
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
 
-                <TextView
-                    android:id="@+id/course"
-                    android:layout_height="wrap_content"
-                    android:text="Course "
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/Stream"
-                    android:layout_height="wrap_content"
-                    android:text="Stream "
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/Year"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:textColor="@color/white"
-                    android:layout_weight="0.30"
-                    android:gravity="center"
-                    android:text="Year of Passing" />
-
-                <TextView
-                    android:id="@+id/Percentage"
-                    android:layout_height="wrap_content"
-                    android:text="Percentage "
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.15"
-                    android:gravity="center" />
-
-            </LinearLayout>
-
-            <!--POst Graduation-->
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/Stream"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="1"
-                android:background="#b1a9a9"
-                android:padding="5dp"
-                android:layout_margin="5dp">
+                android:text="Stream "
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
 
-
-                <TextView
-                    android:id="@+id/PG1"
-                    android:layout_height="wrap_content"
-                    android:text="PG "
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/PG"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/PG_YEAR"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.30"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:id="@+id/PG_PER"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.15"
-                    android:gravity="center" />
-
-            </LinearLayout>
-
-<!--Graduation-->
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/Year"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="1"
-                android:background="#b1a9a9"
-                android:padding="5dp"
-                android:layout_margin="5dp">
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:textColor="@color/white"
+                android:layout_weight="0.30"
+                android:gravity="center"
+                android:text="Year of Passing" />
 
-                <TextView
-                    android:id="@+id/UG1"
-                    android:layout_height="wrap_content"
-                    android:text="UG "
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/UG"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/UG_YEAR"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.30"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:id="@+id/UG_PER"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.15"
-                    android:gravity="center" />
-
-            </LinearLayout>
-<!--Diploma-->
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/Percentage"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="1"
-                android:background="#b1a9a9"
-                android:padding="5dp"
-                android:layout_margin="5dp">
+                android:text="Percentage "
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="70dp"
+                android:layout_weight="0.15"
+                android:gravity="center" />
 
-                <TextView
-                    android:id="@+id/Dip"
-                    android:layout_height="wrap_content"
-                    android:text="Diploma "
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/Diploma"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
+        <!--POst Graduation-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="#b1a9a9"
+            android:padding="5dp"
+            android:layout_margin="5dp">
 
-                <TextView
-                    android:id="@+id/DiplomaYear"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.30"
-                    android:gravity="center"/>
 
-                <TextView
-                    android:id="@+id/DiplomaPercentage"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.15"
-                    android:gravity="center" />
-
-            </LinearLayout>
-<!--HSC-->
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/PG1"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="1"
-                android:background="#b1a9a9"
-                android:padding="5dp"
-                android:layout_margin="5dp">
+                android:text="PG "
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
 
-                <TextView
-                    android:id="@+id/hs1c"
-                    android:layout_height="wrap_content"
-                    android:text="HSC"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/HSC"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/HSC_Year"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.30"
-                    android:gravity="center" />
-
-                <TextView
-                    android:id="@+id/HSC_per"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.15"
-                    android:gravity="center" />
-
-            </LinearLayout>
-<!--SSC-->
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/PG"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="1"
-                android:background="#b1a9a9"
-                android:padding="5dp"
-                android:layout_margin="5dp">
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
 
-                <TextView
-                    android:id="@+id/S"
-                    android:layout_height="wrap_content"
-                    android:text="SSC"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
+            <TextView
+                android:id="@+id/PG_YEAR"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.30"
+                android:gravity="center"/>
 
-                <TextView
-                    android:id="@+id/SSC"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.27"
-                    android:gravity="center" />
+            <TextView
+                android:id="@+id/PG_PER"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.15"
+                android:gravity="center" />
 
-                <TextView
-                    android:id="@+id/SSC_Year"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.30"
-                    android:gravity="center"/>
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/SSC_per"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_width="70dp"
-                    android:layout_weight="0.15"
-                    android:gravity="center" />
+        <!--Graduation-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="#b1a9a9"
+            android:padding="5dp"
+            android:layout_margin="5dp">
 
-            </LinearLayout>
+            <TextView
+                android:id="@+id/UG1"
+                android:layout_height="wrap_content"
+                android:text="UG "
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/UG"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/UG_YEAR"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.30"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/UG_PER"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.15"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <!--Diploma-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="#b1a9a9"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/Dip"
+                android:layout_height="wrap_content"
+                android:text="Diploma "
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/Diploma"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/DiplomaYear"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.30"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/DiplomaPercentage"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.15"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <!--HSC-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="#b1a9a9"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/hs1c"
+                android:layout_height="wrap_content"
+                android:text="HSC"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/HSC"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/HSC_Year"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.30"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/HSC_per"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.15"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <!--SSC-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="#b1a9a9"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/S"
+                android:layout_height="wrap_content"
+                android:text="SSC"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/SSC"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.27"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/SSC_Year"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.30"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/SSC_per"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_width="70dp"
+                android:layout_weight="0.15"
+                android:gravity="center" />
+
+        </LinearLayout>
 
         <Button
-            android:id="@+id/btnViewUserDetails"
+            android:id="@+id/btnEditUserProfile"
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:linksClickable="true"
             android:paddingLeft="@dimen/feed_item_status_pad_left_right"
             android:paddingRight="@dimen/feed_item_status_pad_left_right"
-            android:text="Edit User Profile"
+            android:text="Edit information"
             android:background="?android:attr/panelColorBackground"
             android:shadowColor="@android:color/holo_blue_bright"
             android:gravity="center"
@@ -593,4 +597,5 @@
             android:textColorLink="@android:color/white" />
 
     </GridLayout>
-</LinearLayout>
+</RelativeLayout>
+    </ScrollView>

@@ -49,7 +49,7 @@ public class UserPanelViewPostDetails extends AppCompatActivity
         Bundle bundle = getIntent().getExtras();
         id = bundle.getString("pid");
 
-        Toast.makeText(getApplicationContext(), "id : - " + id , Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), "id : - " + id , Toast.LENGTH_SHORT).show();
 
         session = new SessionManger(getApplicationContext());
 

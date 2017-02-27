@@ -55,15 +55,17 @@
                         android:textSize="@dimen/feed_item_timestamp"
                         android:paddingBottom="15dp"
                         android:paddingLeft="5dp"
+                        android:textStyle="bold"
                         android:paddingStart="5dp" />
 
                     <TextView
                         android:id="@+id/u_firstname"
-                        android:layout_width="91dp"
+                        android:layout_width="99dp"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/timestamp"
-                        android:textSize="@dimen/feed_item_timestamp"
-                        android:paddingLeft="5dp" />
+                        android:textSize="@dimen/feed_item_profile_name"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"
+                        android:padding="5dp" />
 
                     <TextView
                         android:id="@+id/u_lastname"
@@ -84,7 +86,11 @@
 
             </LinearLayout>
 
+
+
         </LinearLayout>
+
+    </GridLayout>
 
         <!-- Date of birth-->
         <LinearLayout
@@ -246,5 +252,5 @@
             android:gravity="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse"
             android:layout_marginTop="10dp" />
-       </GridLayout>
+
     </LinearLayout>

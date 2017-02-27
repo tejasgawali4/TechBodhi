@@ -117,23 +117,17 @@ public class AdminPanelViewUserAdapter extends BaseAdapter {
                 holder.contact.setText(tempValues.get("u_contact").toString());
                 holder.email.setText(tempValues.get("u_email").toString());
                 holder.username.setText(tempValues.get("u_username").toString());
-
-
                 holder.ssc.setText(tempValues.get("u_ssc_per").toString());
                 holder.ssc_year.setText(tempValues.get("u_ssc_passingyear").toString());
-
                 holder.hsc.setText(tempValues.get("u_hsc_per").toString());
                 holder.hsc_year.setText(tempValues.get("u_hsc_passingyear").toString());
                 holder.hsc_strem.setText(tempValues.get("u_hsc_stream").toString());
-
                 holder.diploma.setText(tempValues.get("u_diploma_per").toString());
                 holder.diploma_stream.setText(tempValues.get("u_diploma_stream").toString());
                 holder.diploma_year.setText(tempValues.get("u_diploma_passingyear").toString());
-
                 holder.UG.setText(tempValues.get("u_graduation_per").toString());
                 holder.UG_stream.setText(tempValues.get("u_graduation_stream").toString());
                 holder.UG_year.setText(tempValues.get("u_graduation_passingyear").toString());
-
                 holder.PG.setText(tempValues.get("u_postGrad_per").toString());
                 holder.PG_stream.setText(tempValues.get("u_postGrad_stream").toString());
                 holder.PG_Year.setText(tempValues.get("u_post_passingyear").toString());
@@ -147,7 +141,7 @@ public class AdminPanelViewUserAdapter extends BaseAdapter {
                     public void onClick(View v) {
                         String id =(String) tempValues.get("u_id");
                         User_id = id;
-                        ViewUser();
+                        EditUser();
                     }
                 });
                 vi.setTag(holder);
@@ -158,9 +152,9 @@ public class AdminPanelViewUserAdapter extends BaseAdapter {
         return vi;
     }
 
-    public void ViewUser()
+    public void EditUser()
     {
-        Intent i = new Intent(activity.getApplicationContext(), AdminPanelViewUserDetails.class );
+        Intent i = new Intent(activity.getApplicationContext(), EditUserProfile.class );
         i.putExtra("uid",User_id);
         activity.startActivity(i);
     }

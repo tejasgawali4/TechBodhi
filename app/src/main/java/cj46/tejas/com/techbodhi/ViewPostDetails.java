@@ -118,7 +118,7 @@ public class ViewPostDetails extends AppCompatActivity implements View.OnClickLi
             HttpConnection sh = new HttpConnection();
             //System.out.println("id verification :- " + id);
             String jsonStr = sh.sendGetRequest(Config.URL_VIEW_POST_BYID + id );
-            System.out.println("URL :- " + Config.URL_VIEW_POST_BYID + id);
+            //System.out.println("URL :- " + Config.URL_VIEW_POST_BYID + id);
             if (jsonStr != null)
             {
                 try

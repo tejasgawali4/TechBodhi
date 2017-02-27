@@ -50,7 +50,9 @@ public class AdminPanelViewUserDetails extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         id = bundle.getString("uid");
 
-        Toast.makeText(getApplicationContext(), "id : - " + id , Toast.LENGTH_SHORT).show();
+
+
+        //Toast.makeText(getApplicationContext(), "id : - " + id , Toast.LENGTH_SHORT).show();
 
         new AdminPanelViewUserDetails.ViewUserDetails().execute();
     }

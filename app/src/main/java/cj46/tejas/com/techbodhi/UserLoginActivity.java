@@ -78,6 +78,11 @@ public class UserLoginActivity extends AppCompatActivity
                 Intent  i = new Intent(UserLoginActivity.this, UserPanelViewPost.class);
                 startActivity(i);
             }
+            else if (id == R.id.EditProfile)
+            {
+                Intent  i = new Intent(UserLoginActivity.this, UserPanelViewProfileInfo.class);
+                startActivity(i);
+            }
             else if(id == R.id.logout)
             {
                 Intent i = new Intent(UserLoginActivity.this,LoginActivity.class);
@@ -87,5 +92,6 @@ public class UserLoginActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+
     }
 }

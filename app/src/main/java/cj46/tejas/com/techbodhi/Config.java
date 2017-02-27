@@ -17,7 +17,8 @@ public class Config
     public static final String URL_ADD_POST = "http://PLATFORMX.CO.IN/tbAndroidApp/addPost.php";
     public static final String URL_CHECK_USER ="http://PLATFORMX.CO.IN/tbAndroidApp/checkUser.php";
     public static final String URL_VIEW_POST_BYID = "http://PLATFORMX.CO.IN/tbAndroidApp/ViewPostById.php?jid=";
-    public static final String URL_VIEW_USERS = "http://PLATFORMX.CO.IN/tbAndroidAppviewUsers.php";
+    public static final String URL_VIEW_USER_BYID="http://PLATFORMX.CO.IN/tbAndroidApp/ViewUserById.php?uid=";
+    public static final String URL_VIEW_USERS = "http://PLATFORMX.CO.IN/tbAndroidApp/viewUsers.php";
     public static final String URL_VIEW_POSTS = "http://PLATFORMX.CO.IN/tbAndroidApp/viewPost.php";
     public static final String URL_APPROVAL_USER = "http://PLATFORMX.CO.IN/tbAndroidApp/viewUserApprovals.php";
     public static final String URL_APPROVE_user = "http://PLATFORMX.CO.IN/tbAndroidApp/ApproveUser.php";
@@ -26,9 +27,8 @@ public class Config
     public static final String URL_UPDATE_JOBPOST = "http://PLATFORMX.CO.IN/tbAndroidApp/updateJobPost.php";
     public static final String URL_USER_PANEL_VIEWPOST = "http://PLATFORMX.CO.IN/tbAndroidApp/UserPanelViewJobPost.php";
     public static final String URL_VIEWPOSTS_BY_ID = "http://PLATFORMX.CO.IN/tbAndroidApp/UserPanelViewJobPostBYId.php?pid=";
-    public static final String URL_APPLY_FOR_JOB = "http://PLATFORMX.CO.IN/tbAndroidApp/UserPanelApplyJob.php?pid=";
+    public static final String URL_APPLY_FOR_JOB = "http://PLATFORMX.CO.IN/tbAndroidApp/UserPanelApplyJob.php?pid=";*/
 
-*/
 
     //http://platformx.co.in/tbAndroidApp/viewUsers.php
 
@@ -47,6 +47,8 @@ public class Config
     public static final String URL_USER_PANEL_VIEWPOST= "http://192.168.1.4/TBS_PORTAL/API/UserPanelViewJobPost.php";
     public static final String URL_VIEWPOSTS_BY_ID="http://192.168.1.4/TBS_PORTAL/API/UserPanelViewJobPostBYId.php?pid=";
     public static final String URL_APPLY_FOR_JOB="http://192.168.1.4/TBS_PORTAL/API/UserPanelApplyJob.php?pid=";
+    public static final String URL_UPDATE_USERINFO="http://192.168.1.4/TBS_PORTAL/API/UpdateUserProfile.php?uid=";
+
 
 
     //Keys that will be used to send the request to php scripts

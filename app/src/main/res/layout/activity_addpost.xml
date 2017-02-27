@@ -47,7 +47,7 @@
                 android:editable="false"
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
-                android:hint="@string/dob"/>
+                android:hint="Select Deadline"/>
 
             <ImageButton
                 android:id="@+id/ImageButtonDeadLine"

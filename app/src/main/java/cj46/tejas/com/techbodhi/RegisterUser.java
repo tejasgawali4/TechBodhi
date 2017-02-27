@@ -147,7 +147,7 @@ import java.util.HashMap;
                     }
                     else
                     {
-                        error.setText("Invalid User");
+                        error.setText("Please Enter valid info");
                         Toast.makeText(getApplicationContext(), name, Toast.LENGTH_LONG).show();
                     }
                 } catch (JSONException e) {

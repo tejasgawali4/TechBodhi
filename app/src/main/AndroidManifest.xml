@@ -60,10 +60,20 @@
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name=".UserPanelViewPostDetails"/>
+            android:name=".UserPanelViewPostDetails"
+            android:theme="@style/AppTheme"/>
 
         <activity
-            android:name=".AdminPanelViewUserDetails"/>
+            android:name=".AdminPanelViewUserDetails"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".UserPanelViewProfileInfo"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".EditUserProfile"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>
