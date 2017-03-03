@@ -42,32 +42,46 @@
                 android:padding="10dp"
                 android:layout_marginBottom="30dp" />
 
-            <EditText
-                android:id="@+id/loginEmail"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/emailaddress"
-                android:inputType="textEmailAddress"
-                android:background="@drawable/edittext"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:layout_marginTop="50dp" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/floating_login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/loginPassword"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edittext"
-                android:hint="@string/password"
-                android:inputType="textPassword"
-                android:layout_margin="5dp"
-                android:padding="10dp" />
+                <EditText
+                    android:id="@+id/loginEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/emailaddress"
+                    android:inputType="textEmailAddress"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="50dp"
+                    android:textColorLink="?attr/editTextColor" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/floating_login_Paassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/loginPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:textColorLink="?attr/actionMenuTextColor" />
+            </android.support.design.widget.TextInputLayout>
+
 
             <TextView
                 android:id="@+id/login_error"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center" />
+
 
             <Button
                 android:id="@+id/btnLogin"

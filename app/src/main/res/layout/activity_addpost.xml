@@ -159,19 +159,19 @@
             android:padding="10dp" />
 
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Add a Post"
-        android:id="@+id/btnAddPost"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/button"
-        android:layout_alignStart="@+id/Content"
-        android:textStyle="bold"
-        android:layout_gravity="bottom|center_vertical"
-        android:layout_margin="10dp"
-        android:padding="10dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add a Post"
+            android:id="@+id/btnAddPost"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button"
+            android:layout_alignStart="@+id/Content"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|center_vertical"
+            android:layout_margin="10dp"
+            android:padding="10dp" />
 
-        </LinearLayout>
+    </LinearLayout>
 
-    </ScrollView>
+</ScrollView>

@@ -3,6 +3,7 @@
     package="cj46.tejas.com.techbodhi">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -53,7 +54,7 @@
         <activity
             android:name=".UserLoginActivity"
             android:label="@string/title_activity_user_login"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity
             android:name=".UserPanelViewPost"

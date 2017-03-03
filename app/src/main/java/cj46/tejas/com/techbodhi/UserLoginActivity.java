@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,8 +17,29 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.viewpagerindicator.CirclePageIndicator;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Timer;
+import java.util.TimerTask;
+import android.os.Handler;
+
 public class UserLoginActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private static ViewPager mPager;
+    private static int currentPage = 0;
+    private static int NUM_PAGES = 0;
+    private static final Integer[] IMAGES= {R.drawable.slider1,R.drawable.silder2,R.drawable.slider3,R.drawable.slider4};
+    private ArrayList<Integer> ImagesArray = new ArrayList<Integer>();
+
+    //Horizontal List View Declare
+    RecyclerView mRecyclerView;
+    RecyclerView.LayoutManager mLayoutManager;
+    RecyclerView.Adapter mAdapter;
+    ArrayList<String> alName;
+    ArrayList<Integer> alImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +47,25 @@ public class UserLoginActivity extends AppCompatActivity
         setContentView(R.layout.activity_user_login);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        init();
+
+
+        //Horizontal View
+
+        alName = new ArrayList<>(Arrays.asList("Infosys", "Wipro", "Cybage", "Syntel", "Accenture", "Infosys"));
+        alImage = new ArrayList<>(Arrays.asList(R.drawable.infosys, R.drawable.wipro, R.drawable.cubage, R.drawable.syntel, R.drawable.accenture, R.drawable.infosys));
+
+        // Calling the RecyclerView
+        mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        mRecyclerView.setHasFixedSize(true);
+
+        // The number of Columns
+        mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        mRecyclerView.setLayoutManager(mLayoutManager);
+
+        mAdapter = new HorizontalListViewAdapter(UserLoginActivity.this, alName, alImage);
+        mRecyclerView.setAdapter(mAdapter);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -33,6 +76,70 @@ public class UserLoginActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+
+
+    private void init() {
+        for(int i=0;i<IMAGES.length;i++)
+            ImagesArray.add(IMAGES[i]);
+
+        mPager = (ViewPager) findViewById(R.id.pager);
+
+
+        mPager.setAdapter(new SlidingImage_Adapter(UserLoginActivity.this,ImagesArray));
+
+
+        CirclePageIndicator indicator = (CirclePageIndicator)
+                findViewById(R.id.indicator);
+
+        indicator.setViewPager(mPager);
+
+        final float density = getResources().getDisplayMetrics().density;
+
+//Set circle indicator radius
+        indicator.setRadius(5 * density);
+
+        NUM_PAGES =IMAGES.length;
+
+        // Auto start of viewpager
+        final Handler handler = new Handler();
+        final Runnable Update = new Runnable() {
+            public void run() {
+                if (currentPage == NUM_PAGES) {
+                    currentPage = 0;
+                }
+                mPager.setCurrentItem(currentPage++, true);
+            }
+        };
+        Timer swipeTimer = new Timer();
+        swipeTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                handler.post(Update);
+            }
+        }, 3000, 3000);
+
+        // Pager listener over indicator
+        indicator.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+
+            @Override
+            public void onPageSelected(int position) {
+                currentPage = position;
+
+            }
+
+            @Override
+            public void onPageScrolled(int pos, float arg1, int arg2) {
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int pos) {
+
+            }
+        });
+
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -67,27 +174,27 @@ public class UserLoginActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-            if (id == R.id.addPost)
-            {
-                // Handle the camera action
-                Intent i = new Intent(UserLoginActivity.this, AddPost.class);
-                startActivity(i);
-            }
-            else if (id == R.id.UserPanelViewPost)
-            {
-                Intent  i = new Intent(UserLoginActivity.this, UserPanelViewPost.class);
-                startActivity(i);
-            }
-            else if (id == R.id.EditProfile)
-            {
-                Intent  i = new Intent(UserLoginActivity.this, UserPanelViewProfileInfo.class);
-                startActivity(i);
-            }
-            else if(id == R.id.logout)
-            {
-                Intent i = new Intent(UserLoginActivity.this,LoginActivity.class);
-                startActivity(i);
-            }
+        if (id == R.id.addPost)
+        {
+            // Handle the camera action
+            Intent i = new Intent(UserLoginActivity.this, AddPost.class);
+            startActivity(i);
+        }
+        else if (id == R.id.UserPanelViewPost)
+        {
+            Intent  i = new Intent(UserLoginActivity.this, UserPanelViewPost.class);
+            startActivity(i);
+        }
+        else if (id == R.id.EditProfile)
+        {
+            Intent  i = new Intent(UserLoginActivity.this, UserPanelViewProfileInfo.class);
+            startActivity(i);
+        }
+        else if(id == R.id.logout)
+        {
+            Intent i = new Intent(UserLoginActivity.this,LoginActivity.class);
+            startActivity(i);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

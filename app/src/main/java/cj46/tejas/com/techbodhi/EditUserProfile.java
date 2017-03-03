@@ -82,7 +82,7 @@ public class EditUserProfile extends AppCompatActivity implements View.OnClickLi
     protected void onDestroy() {
         super.onDestroy();
     }
-    
+
     @Override
     public void onClick(View v)
     {
