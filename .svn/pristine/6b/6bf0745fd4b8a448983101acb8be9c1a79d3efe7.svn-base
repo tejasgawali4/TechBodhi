@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/child"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/companyName"
+            android:background="@drawable/edittext"
+            android:hint="Enter company Name"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Note"
+            android:background="@drawable/edittext"
+            android:hint="Enter Note"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+
+        <!-- Date picker -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/date"
+            android:background="@drawable/edittext"
+            android:layout_margin="5dp"
+            android:padding="10dp" >
+
+            <EditText
+                android:id="@+id/Deadline"
+                android:layout_width="fill_parent"
+                android:editable="false"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:hint="@string/dob"/>
+
+            <ImageButton
+                android:id="@+id/ImageButtonDeadLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:onClick="selectDate"
+                android:src="@drawable/ic_datepicker"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CompanyProfile"
+            android:background="@drawable/edittext"
+            android:hint="Enter Company Profile"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:lines="8"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CompanyCode"
+            android:background="@drawable/edittext"
+            android:hint="Enter Company Code"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jobDiscription"
+            android:background="@drawable/edittext"
+            android:hint="Enter Job Discription"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:lines="8"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/OtherSkills"
+            android:background="@drawable/edittext"
+            android:hint="Enter Other Skills"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:lines="8"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Responsibility"
+            android:background="@drawable/edittext"
+            android:hint="Enter Responsibity"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:lines="8"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SkillsRequire"
+            android:background="@drawable/edittext"
+            android:hint="Enter Skills Require"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:lines="8"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Percentage"
+            android:background="@drawable/edittext"
+            android:hint="Enter Percentage"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/salaryRange"
+            android:background="@drawable/edittext"
+            android:hint="Enter Salary Range"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/InterviewProcess"
+            android:background="@drawable/edittext"
+            android:hint="Enter Interview Process"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:lines="8"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/JobLoction"
+            android:background="@drawable/edittext"
+            android:hint="Enter Job Location"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/testLocation"
+            android:background="@drawable/edittext"
+            android:hint="Enter Test Location"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a Post"
+        android:id="@+id/btnAddPost"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button"
+        android:layout_alignStart="@+id/Content"
+        android:textStyle="bold"
+        android:layout_gravity="bottom|center_vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>

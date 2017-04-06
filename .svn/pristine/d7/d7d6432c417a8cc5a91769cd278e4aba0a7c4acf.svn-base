@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\TBbackup\TechBodhi\TechBodhi\app\src\main\jniLibs"/></dataSet><dataSet config="free"><source path="D:\TBbackup\TechBodhi\TechBodhi\app\src\free\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\TBbackup\TechBodhi\TechBodhi\app\src\debug\jniLibs"/></dataSet><dataSet config="freeDebug"><source path="D:\TBbackup\TechBodhi\TechBodhi\app\src\freeDebug\jniLibs"/></dataSet></merger>

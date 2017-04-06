@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hralign.navigation.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context="com.hralign.navigation.MainActivity">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/LinerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to HR Align"
+                android:textSize="30dp"
+                android:fontFamily="arial"
+                android:background="#FF5733"
+                android:layout_row="1"
+                android:layout_column="1"/>
+
+            <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/GridLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:columnCount="2"
+                android:rowCount="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/empimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/username"
+                    android:layout_gravity="left|top">
+                    </ImageView>
+
+                <TextView
+                    android:layout_gravity="right|center_vertical"
+                    android:id="@+id/EmpName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tejas Gawali"/>
+                <TextView
+                    android:layout_gravity="right|center_vertical"
+                    android:id="@+id/EmpCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PSPL-042" />
+                <TextView
+                    android:layout_gravity="right|center_vertical"
+                    android:id="@+id/EmpDesignation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Developer" />
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:columnCount="4"
+        android:rowCount="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_gravity="left|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="fragment"
+            android:id="@+id/Leave"
+            android:drawableTop="@drawable/home"
+            android:background="@drawable/square_button"
+            android:text="Leave"/>
+
+        <Button
+            android:layout_gravity="left|bottom"
+            android:onClick="fragment"
+            android:id="@+id/Attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/apply"
+            android:background="@drawable/square_button"
+            android:text="Attendance"/>
+
+        <Button
+            android:layout_gravity="left|bottom"
+            android:id="@+id/OD"
+            android:onClick="fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/balance"
+            android:background="@drawable/square_button"
+            android:text="OD"/>
+
+        <Button
+            android:layout_gravity="left|bottom"
+            android:id="@+id/Muster"
+            android:onClick="fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/logout"
+            android:background="@drawable/square_button"
+            android:text="Muster"/>
+    </GridLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+</RelativeLayout>

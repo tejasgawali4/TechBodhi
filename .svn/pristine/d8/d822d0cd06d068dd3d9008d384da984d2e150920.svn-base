@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/edittext">
+
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/feed_item_padding_left_right"
+            android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/postPic"
+                android:layout_width="@dimen/feed_item_profile_pic"
+                android:layout_height="@dimen/feed_item_profile_pic"
+                android:scaleType="fitCenter"
+                android:background="@drawable/businessman">
+            </com.android.volley.toolbox.NetworkImageView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/feed_item_profile_info_padd" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/feed_item_profile_info_padd"
+                    android:layout_weight="1.23">
+
+                    <TextView
+                        android:id="@+id/u_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/timestamp"
+                        android:textSize="@dimen/feed_item_timestamp"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp" />
+
+                    <TextView
+                        android:id="@+id/u_firstname"
+                        android:layout_width="91dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/timestamp"
+                        android:textSize="@dimen/feed_item_timestamp"
+                        android:paddingLeft="5dp" />
+
+                    <TextView
+                        android:id="@+id/u_lastname"
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_profile_name"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Email"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/timestamp"
+                    android:text="tejas@platformx.tech"
+                    android:textSize="@dimen/feed_item_timestamp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_columnSpan="1"
+            android:orientation="horizontal"
+            android:layout_weight="100"
+            android:padding="15dp"
+            android:paddingBottom="2dp">
+
+            <Button
+                android:id="@+id/btnApproveUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:drawableLeft="@drawable/ic_approve"
+                android:layout_margin="10dp"
+                android:text="Approve"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/btnRejectUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:drawableLeft="@drawable/ic_reject"
+                android:text="Reject"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>

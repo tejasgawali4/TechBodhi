@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/edittext">
+
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/feed_item_padding_left_right"
+            android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/postPic"
+                android:layout_width="@dimen/feed_item_profile_pic"
+                android:layout_height="@dimen/feed_item_profile_pic"
+                android:scaleType="fitCenter"
+                android:background="@drawable/businessman">
+            </com.android.volley.toolbox.NetworkImageView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/feed_item_profile_info_padd" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/feed_item_profile_info_padd"
+                    android:layout_weight="1.23">
+
+                    <TextView
+                        android:id="@+id/u_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/timestamp"
+                        android:textSize="@dimen/feed_item_timestamp"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="bold"
+                        android:paddingStart="5dp" />
+
+                    <TextView
+                        android:id="@+id/u_firstname"
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_profile_name"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:id="@+id/u_lastname"
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_profile_name"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/timestamp"
+                    android:textSize="@dimen/feed_item_timestamp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </GridLayout>
+
+        <!-- Date of birth-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/dob"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:text="Contact :"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/dateob"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                android:paddingTop="@dimen/feed_item_status_pad_top" />
+
+        </LinearLayout>
+
+        <!-- Email-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:text="Email      :"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                android:paddingTop="@dimen/feed_item_status_pad_top" />
+
+        </LinearLayout>
+
+
+        <!-- Address-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:weightSum="1"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/Add"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="Address :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_width="281dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                android:paddingTop="@dimen/feed_item_status_pad_top" />
+
+        </LinearLayout>
+
+
+        <!-- Gender-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/gen"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:text="Gender   :"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                android:paddingTop="@dimen/feed_item_status_pad_top" />
+
+        </LinearLayout>
+
+
+
+
+        <!-- contact-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/cont"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:text="Contact :"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                android:paddingTop="@dimen/feed_item_status_pad_top" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnViewUserDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:linksClickable="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+            android:paddingRight="@dimen/feed_item_status_pad_left_right"
+            android:text="Vire Educational Details"
+            android:paddingTop="15dp"
+            android:background="@color/timestamp"
+            android:shadowColor="@android:color/holo_blue_bright"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>

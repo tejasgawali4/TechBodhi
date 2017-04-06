@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.firebase-firebase-messaging-10.2.0_fa0dc3505d674faac934aafe04363b811a3efd55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-gcm-10.2.0_cac4f0c720edeb37f0a11bdeb1b564758321cf51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-support-core-ui-25.2.0_bb1f2a5f64828643528b7a4a83928d79fe388de7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.firebase-firebase-common-10.2.0_758c17140fbcfa49503689d4234674e53bf6224f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\InstalledApplications\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\support-annotations-25.2.0_c652275149e71828dbe7e16336318ade59f5f4ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.basgeekball\awesome-validation\1.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb21c44f04a700d3a9f7376d4753ea848e5832c4">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\debug\com.basgeekball-awesome-validation-1.3_dd2a8554e72049b99fa5ff572d3d95d00f3eaa25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-gass-10.2.0_7da535ee2296db55d39af04ce930a28b124d2387.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-clearcut-10.2.0_98125a4b5715ee109c66ab33c8e671efe587718b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-support-vector-drawable-25.2.0_d550a007604c7dbef50a300ebde733670a96566c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-iid-10.2.0_1ab79cfc2130aac49dda8e5263d24f583ecf8f6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-animated-vector-drawable-25.2.0_4f33c257a5bd18d2395b9f3a7eec6b597509c790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-base-10.2.0_f76e54241937505e9dfb24ee495e000b9c1e12e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-support-core-utils-25.2.0_ae647da181bc876f3d706735584bf03ac5bd4cda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-design-25.2.0_d4031494d50a6d9f9d8a10b8374054d04dbbbad0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Carl_johnson\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\19.0\6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9\guava-19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\debug\guava-19.0_b8008c12031be9c72edfbd095583689bb9e03b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.firebase-firebase-iid-10.2.0_59745776dd4445a09b390ea2a85c869bc1ab0bf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-ads-10.2.0_3229c403fa445817e3bf890e60f6295b4b50eeff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-tasks-10.2.0_cbed21b60f78456238d6ca7763aa0df22dcb83d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\TechBodhi\ViewPagerIndicator\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2d75fa9ccc87d91c3ff98be738e81c629d2fa44">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\TechBodhi-ViewPagerIndicator-unspecified_038773780546e38f53ffe7c05058013e0e976ceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-ads-lite-10.2.0_815c8e025c7ba4a629353498391c8b2bdfb29137.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-transition-25.2.0_fbd81fe8c9f122ccda70240727b6e19a64643659.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Carl_johnson\.gradle\caches\modules-2\files-2.1\eu.the4thfloor.volley\com.android.volley\2015.05.28\b0b08cc0ac897e596abe6b263a9507cba875b705\com.android.volley-2015.05.28.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.volley-2015.05.28_96041ade36ff32d5b7b472dcfd97f3a5a86e590b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-auth-base-10.2.0_1be5ff7652591d80a7110197993e3e54f912c5c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.firebase-firebase-analytics-impl-10.2.0_ea436201374db9447ec6b722cacf7cdb88ee1dfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-support-compat-25.2.0_3a3ed1163a3cb34a4d5172166297446799d0c1fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-basement-10.2.0_92224794d50f13da90590e18babacc7146291fd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.android.gms-play-services-auth-10.2.0_974dcb7e22fd2a93a43e0eeac556036ab99dcddc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-support-fragment-25.2.0_884de70e544da752d6642bafed5827f38d24cadf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.google.firebase-firebase-analytics-10.2.0_20fb548b63fc14666a09804416c60f08bd9c8388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-support-media-compat-25.2.0_c2e7beb1a254c56ba8575c3eb890156a8c65bdd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-support-v4-25.2.0_5184aa65e206626e1f9798b987a088f157fabb56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-cardview-v7-25.2.0_b16614280fc530d4b9efde76ec93a46dc0ce5ccc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Carl_johnson\.gradle\caches\modules-2\files-2.1\com.google.gms\google-services\3.0.0\ee538ce9cf4148485e43017c5542202b8c78ff8e\google-services-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee538ce9cf4148485e43017c5542202b8c78ff8e">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\google-services-3.0.0_855f248b6432b09b3b2b66050ac8f24366451ca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-recyclerview-v7-25.2.0_fc755335cb7ac865fbfbf7e595f374db1face0b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\pre-dexed\free\release\com.android.support-appcompat-v7-25.2.0_3709b7d44afda95ae11f3fcdad4f5e7b73a8bb5e.jar" />
+    </item>
+
+</items>

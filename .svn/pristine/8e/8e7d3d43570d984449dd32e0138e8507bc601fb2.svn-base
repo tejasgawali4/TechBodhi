@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\security.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\security.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\bg_parent_corner.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\bg_parent_corner.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\signonoff_switch.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\signonoff_switch.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\placement.jpg",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\placement.jpg"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\cubage.jpg",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\cubage.jpg"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\syntel.jpg",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\syntel.jpg"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\slider4.jpg",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\slider4.jpg"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\round_button.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\design_password_eye.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\edittext.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\edittext.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\techbodhilogo.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\techbodhilogo.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\notification_bg.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_vector_test.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\logo1.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\logo1.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\infosys.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\infosys.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\slider1.jpg",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\slider1.jpg"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\notification_icon_background.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\back2.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\back2.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\accenture.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\accenture.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\square_button.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\square_button.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\padlock.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\padlock.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\button.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\loginperson.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\loginperson.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\wipro.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\wipro.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\logo2.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\logo2.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\businessman.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\businessman.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\slider3.jpg",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\slider3.jpg"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\techbodhilogo1.png",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\techbodhilogo1.png"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\side_nav_bar.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\notification_bg_low.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\silder2.jpg",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\drawable\\silder2.jpg"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\TechBodhi\\ViewPagerIndicator\\unspecified\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    }
+]

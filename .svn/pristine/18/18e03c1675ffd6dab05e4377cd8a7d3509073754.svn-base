@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\menu\\base.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\menu\\base.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\menu\\user_login.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\menu\\user_login.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\menu\\activity_base_drawer.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\menu\\activity_base_drawer.xml"
+    },
+    {
+        "merged": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\build\\intermediates\\res\\merged\\free\\debug\\menu\\activity_user_login_drawer.xml",
+        "source": "D:\\TBbackup\\TechBodhi\\TechBodhi\\app\\src\\main\\res\\menu\\activity_user_login_drawer.xml"
+    }
+]

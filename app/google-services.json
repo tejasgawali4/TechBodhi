@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "412876153774",
+    "firebase_url": "https://tbs-job-portal.firebaseio.com",
+    "project_id": "tbs-job-portal",
+    "storage_bucket": "tbs-job-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412876153774:android:080ee52290c66231",
+        "android_client_info": {
+          "package_name": "cj46.tejas.com.techbodhi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412876153774-4j3q60cqlceitctn2kv0npkhlt62bbqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cj46.tejas.com.techbodhi",
+            "certificate_hash": "a643107e9847868985a2c06db1a0fe0b447f9297"
+          }
+        },
+        {
+          "client_id": "412876153774-uqeva8ps9baeqi7tnqcovm2ubctvdn2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXqoTQRbrCzGHN_sDoQkvqwCYqpfE7ehw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412876153774-uqeva8ps9baeqi7tnqcovm2ubctvdn2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

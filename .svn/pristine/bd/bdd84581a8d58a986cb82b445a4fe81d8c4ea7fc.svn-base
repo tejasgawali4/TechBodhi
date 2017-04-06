@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="25"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="30226429130352"
+    token="3286893392979246245" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="29532789889439"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\TBbackup\TechBodhi\TechBodhi\app\build\outputs\apk\app-free-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="29823687374567"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\TBbackup\TechBodhi\TechBodhi\app\build\intermediates\transforms\dex\free\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="30226429130352" />
+
+</instant-run>
