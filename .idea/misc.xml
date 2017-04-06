@@ -64,6 +64,9 @@
     </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
+  <component name="TaskProjectConfiguration">
+    <server type="Redmine" url="http://192.168.1.101:90/redmine" />
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
